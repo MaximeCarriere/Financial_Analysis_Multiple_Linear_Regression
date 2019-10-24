@@ -73,11 +73,11 @@ A Multiple Linear Regression model has to satisfy 4 assumptions:
 
 ![Independance](https://user-images.githubusercontent.com/55028120/67507941-e389fd80-f687-11e9-819b-f53b46864d03.png)
 
-3) Normality, the variable must have a normal distribution
+3) Normality, the variable must have a normal distribution.
 
-4) Homoscedasticity represents an equal variance between predictors and the independant variable
+4) Homoscedasticity represents an equal variance between predictors and the independant variable.
 
-If the model violates the assumptions, it is not possible to make statistical inference. However, the accurancy and consistency of model does not rely on these four assumptions
+If the model violates the assumptions, it is not possible to make statistical inference. However, the accurancy and consistency of model does not rely on these four assumptions.
 
 # Evaluate the strategy
 
