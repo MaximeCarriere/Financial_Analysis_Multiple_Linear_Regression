@@ -30,7 +30,7 @@ All data sets have 6 columns:
 1) We will focus on the open price in order to simplify the Multiple Linear Regression, but every variables could be analyse in the same way. 
 The first step is to create a new variable called "indicepanel" which is composed of the difference between two following days for every predictor. Obviously the first value in each column is "NaN" since it is not possible to do the difference with the previous day, we therefore drop these values. 
 
-2) The second step is to split the data into train and test data sets.
+2) The second step is to split the data into train and test data sets. The best way to explore the data is to draw scatter plots between all different combinaisons that we have in our data set. 
 
 ![Scatter](https://user-images.githubusercontent.com/55028120/67499099-673bee00-f678-11e9-8bcb-ba97392d9ee4.png)
 
