@@ -94,5 +94,6 @@ It is important to compute these two values after training and to compare them t
 
          Train      Test
 R2    0.007057  0.003889
+
 RMSE  1.267255  1.742533
 
