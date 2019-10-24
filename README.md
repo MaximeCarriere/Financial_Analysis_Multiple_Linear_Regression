@@ -37,4 +37,8 @@ The first step is to create a new variable called "indicepanel" which is compose
 
 3) Look at the coefficient of correlation between our predictors and SPY. 
 
+![Correlation](https://user-images.githubusercontent.com/55028120/67499982-e120a700-f679-11e9-9fc2-00f9e8162fb5.png)
+
+4) Built the models. Model 1 includes all predictors.
+
 
