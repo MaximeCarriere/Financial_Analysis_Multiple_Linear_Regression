@@ -35,7 +35,6 @@ The first step is to create a new variable called "indicepanel" which is compose
 ![Scatter](https://user-images.githubusercontent.com/55028120/67499099-673bee00-f678-11e9-8bcb-ba97392d9ee4.png)
 
 
-
-
+3) Look at the coefficient of correlation between our predictors and SPY. 
 
 
