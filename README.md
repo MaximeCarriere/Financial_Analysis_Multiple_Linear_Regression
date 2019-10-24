@@ -90,7 +90,7 @@ We can use 2 parameters:
 - Root Mean Square Error (RMSE) 
 - R-square (R^2)
 
-It is important to compute these two values after training and to compare them to the value obtained for the test data set. The values should be similar in the two conditions. Otherwise it indicates the presence of overfitting. Here the two values are relatively the same.
+It is important to compute these two values after training and to compare them to the values obtained for the test data set. The values should be similar in the two conditions. Otherwise it indicates the presence of overfitting. Here the two values are relatively the same.
 
 ![Screen Shot 2019-10-24 at 21 10 41](https://user-images.githubusercontent.com/55028120/67521450-d0385b80-f6a2-11e9-8c19-274c7f6ab6c7.png)
 
