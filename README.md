@@ -26,6 +26,8 @@ All data sets have 6 columns:
 - Adj Close: the adjusted closing price including dispution and corporate actions 
 - Volume: the number of shares tradded on that day
 
+# Multiple Linear Regression
+
 1) We will focus on the open price in order to simplify the Multiple Linear Regression, but every variables could be analyse in the same way. 
 The first step is to create a new variable called "indicepanel" which is composed of the difference between two following days for every predictor. Obviously the first value in each column is "NaN" since it is not possible to do the difference with the previous day, we therefore drop these values. 
 
@@ -51,4 +53,9 @@ Model 2 Summary:
 ![Model_2_Summary](https://user-images.githubusercontent.com/55028120/67503631-df59e200-f67f-11e9-8fae-297bc9b1fc55.png)
 
 
-5) Make Prediction. 
+5) Make Prediction. To do so we plot the train data set against the test data set. Here, the positive correlation is not really strong. 
+
+![Screen Shot 2019-10-24 at 17 28 26](https://user-images.githubusercontent.com/55028120/67505753-bfc4b880-f683-11e9-8e64-769e59a831af.png)
+
+# Evaluate the strategy
+
