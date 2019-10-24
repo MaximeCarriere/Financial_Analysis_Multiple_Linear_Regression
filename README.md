@@ -94,4 +94,12 @@ It is important to compute these two values after training and to compare them t
 
 ![Screen Shot 2019-10-24 at 21 10 41](https://user-images.githubusercontent.com/55028120/67521450-d0385b80-f6a2-11e9-8c19-274c7f6ab6c7.png)
 
+# Evaluate the strategy
+
+Now we will estimate the capacity of the model. If the model is positive we are long (share increase) and we will buy shares, if the model is negative we are short (share decrease) and therefore we will sell shares. We then compute the daily profit and the cumulative profit over time. 
+
+The Total profit made in Train:  115.98004799999941. (Train correponds to the train data set of 1000 days). 
+
+Then, we can compare the performance of this strategy, which we call the signal-based strategy, with a passive strategy, which we call buy and hold strategy, which is to buy more shares of SPY initially and hold it for 1000 days. We can see from the plot, signal-based strategy outperforms buy-and-hold strategy. 
+
 
