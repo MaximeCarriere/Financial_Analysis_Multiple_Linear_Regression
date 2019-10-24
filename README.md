@@ -128,6 +128,7 @@ Maximum drawdown is a maximum percentage decline in the strategy from the histor
 One would hope that the maximum drawdown would be as small as possible. If an investment never lost a penny, the maximum drawdown would be zero. The worst possible maximum drawdown would be 100%, meaning the investment is completely worthless. Most maximum drawdowns will fall somewhere between these two extremes. The two most important elements to keep in mind when analyzing maximum drawdown are the asset class and time frame being analysed.
 
 Maximum Drawdown in Train is  0.10943675248590072
+
 Maximum Drawdown in Test is  3.0691683894010597
 
 Here again, the Maximum Drawdown indicates that our model might not be optimal. 
