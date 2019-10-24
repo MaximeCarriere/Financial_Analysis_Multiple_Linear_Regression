@@ -57,5 +57,23 @@ Model 2 Summary:
 
 ![Screen Shot 2019-10-24 at 17 28 26](https://user-images.githubusercontent.com/55028120/67505753-bfc4b880-f683-11e9-8e64-769e59a831af.png)
 
+
+# Diagnostic of the model
+
+A Multiple Linear Regression model has to satisfy 4 assumptions:
+
+- Linearity
+- Independance
+- Normality
+- Homoscedasticity
+
+1) Linearity defines a linear relationship between our variables SPY and each of our predictors. This can be observed in the scatter plot previously showed. 
+
+2) Independance of variables. Residuals must be uncorrelated. We can use the Durbin-Watson test (https://www.jstor.org/stable/1914122?seq=1#metadata_info_tab_contents). A value below 1.5 corresponds to a positive correlation. A value above 2.5 corresponds to a negative correlation. A value between 1.5 and 2.5 represents the independance of variable. In our model the value of the Durbin-Test is 2.037. Thus, the independance is statisfied. 
+
+3) Normality, the variable must have a normal distribution
+
+4) Homoscedasticity represents an equal variance between predictors and the independant variable
+
 # Evaluate the strategy
 
