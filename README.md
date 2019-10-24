@@ -32,7 +32,9 @@ The first step is to create a new variable called "indicepanel" which is compose
 
 2) The second step is to split the data into train and test data sets.
 
-![Screenshot](/Users/maximecarriere/Downloads/Scatter_Plot.png)
+![Alt text](/Users/maximecarriere/Downloads/Scatter_Plot.png?raw=true "Optional Title")
+
+
 
 
 
