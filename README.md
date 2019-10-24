@@ -9,7 +9,6 @@ Predictors:
 - HSI (Hong-Kong)
 - DAX (Germany)
 - CAC40 (France)
-- S&P 500 (US)
 - Dji (US)
 - Nasdaq (US)
 
