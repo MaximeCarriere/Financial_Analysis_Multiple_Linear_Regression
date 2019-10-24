@@ -47,3 +47,6 @@ Model 1 Summary:
 Since Model 1 is not significant, we can try to drop the less significant variable to obtain a significant model. Thus, Model 2 includes all predictors but Daxi.
 
 Model 2 Summary:
+
+![Model_2_Summary](https://user-images.githubusercontent.com/55028120/67503631-df59e200-f67f-11e9-8fae-297bc9b1fc55.png)
+
