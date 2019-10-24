@@ -102,14 +102,32 @@ The Total profit made in Train:  115.98004799999941. (Train correponds to the tr
 
 Then, we can compare the performance of this strategy, which we call the signal-based strategy, with a passive strategy, which we call buy and hold strategy, which is to buy more shares of SPY initially and hold it for 1000 days. We can see from the plot, signal-based strategy outperforms buy-and-hold strategy. 
 
-![Profit](https://user-images.githubusercontent.com/55028120/67522831-5eaddc80-f6a5-11e9-808b-edb643c129f1.png)
+![Profit_total](https://user-images.githubusercontent.com/55028120/67523779-42ab3a80-f6a7-11e9-86eb-e30e28aff003.png)
 
 The consistency of performance is very important. Otherwise, it is too risky to apply it in the future. Average daily return is a mirror we can make comparison in finance industry when they use a Sharpe ratio and maximum drawdown.
 
 Sharpe ratio measures excess return per unit of deviation in an investment asset or trading strategy named after William Sharpe. 
 
-In the train data:
+- Usually, any Sharpe ratio greater than 1.0 is considered acceptable to good by investors.
+- A ratio higher than 2.0 is rated as very good.
+- A ratio of 3.0 or higher is considered excellent.
+- A ratio under 1.0 is considered sub-optimal.
+
+In the train data set:
 Daily Sharpe Ratio is  0.05398637652227286
 Yearly Sharpe Ratio is  0.8570071587805803
 
+In the test data set:
+Daily Sharpe Ratio is  0.032941642184423775
+Yearly Sharpe Ratio is  0.522932357988359
 
+Thus, the Sharp ratio indicates that our model might not be optimal. 
+
+Maximum drawdown is a maximum percentage decline in the strategy from the historical peak profit at each point in time. We first compute drawdown, and then the maximum of all drawdowns in the trading period. Maximum drawdown is that risk of mirror for extreme loss of a strategy. 
+
+One would hope that the maximum drawdown would be as small as possible. If an investment never lost a penny, the maximum drawdown would be zero. The worst possible maximum drawdown would be 100%, meaning the investment is completely worthless. Most maximum drawdowns will fall somewhere between these two extremes. The two most important elements to keep in mind when analyzing maximum drawdown are the asset class and time frame being analysed.
+
+Maximum Drawdown in Train is  0.10943675248590072
+Maximum Drawdown in Test is  3.0691683894010597
+
+Here again, the Maximum Drawdown indicates that our model might not be optimal. 
