@@ -50,8 +50,10 @@ Since Model 1 is not significant, we can try to drop the less significant variab
 
 Model 2 Summary:
 
-![Model_2_Summary](https://user-images.githubusercontent.com/55028120/67503631-df59e200-f67f-11e9-8fae-297bc9b1fc55.png)
+![Model_2_Summary](https://user-images.githubusercontent.com/55028120/67517770-39b46c00-f69b-11e9-9c67-fbfcc927d6d6.png)
 
+
+Thus, the equation of this model is: SPY = 0.0831 + 0.0022*CAC40 + 0.004*Nikkei - 0.007*Dji - 0.003*Hsi + 0.0018*Nasdaq
 
 5) Make Prediction. To do so we plot the train data set against the test data set. Here, the positive correlation is not really strong. 
 
