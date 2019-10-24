@@ -41,4 +41,5 @@ The first step is to create a new variable called "indicepanel" which is compose
 
 4) Built the models. Model 1 includes all predictors.
 
+![Model_1_Summary](https://user-images.githubusercontent.com/55028120/67502229-78d3c480-f67d-11e9-8da1-a1291828e9fc.png)
 
