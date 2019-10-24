@@ -114,14 +114,14 @@ Sharpe ratio measures excess return per unit of deviation in an investment asset
 - A ratio under 1.0 is considered sub-optimal.
 
 In the train data set:
-Daily Sharpe Ratio is  0.05398637652227286
 
-Yearly Sharpe Ratio is  0.8570071587805803
+- Daily Sharpe Ratio is  0.05398637652227286
+- Yearly Sharpe Ratio is  0.8570071587805803
 
 In the test data set:
-Daily Sharpe Ratio is  0.032941642184423775
 
-Yearly Sharpe Ratio is  0.522932357988359
+- Daily Sharpe Ratio is  0.032941642184423775
+- Yearly Sharpe Ratio is  0.522932357988359
 
 Thus, the Sharp ratio indicates that our model might not be optimal. 
 
@@ -129,8 +129,7 @@ Maximum drawdown is a maximum percentage decline in the strategy from the histor
 
 One would hope that the maximum drawdown would be as small as possible. If an investment never lost a penny, the maximum drawdown would be zero. The worst possible maximum drawdown would be 100%, meaning the investment is completely worthless. Most maximum drawdowns will fall somewhere between these two extremes. The two most important elements to keep in mind when analyzing maximum drawdown are the asset class and time frame being analysed.
 
-Maximum Drawdown in Train is  0.10943675248590072
-
-Maximum Drawdown in Test is  3.0691683894010597
+- Maximum Drawdown in Train is  0.10943675248590072
+- Maximum Drawdown in Test is  3.0691683894010597
 
 Here again, the Maximum Drawdown indicates that our model might not be optimal. 
