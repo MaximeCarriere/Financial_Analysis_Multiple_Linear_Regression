@@ -50,3 +50,5 @@ Model 2 Summary:
 
 ![Model_2_Summary](https://user-images.githubusercontent.com/55028120/67503631-df59e200-f67f-11e9-8fae-297bc9b1fc55.png)
 
+
+5) Make Prediction. 
