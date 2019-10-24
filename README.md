@@ -92,8 +92,8 @@ We can use 2 parameters:
 
 It is important to compute these two values after training and to compare them to the value obtained for the test data set. The values should be similar in the two conditions. Otherwise it indicates the presence of overfitting. Here the two values are relatively the same.
 
-         Train      Test
-R2    0.007057  0.003889
+             Train      Test
+R2          0.007057  0.003889
 
-RMSE  1.267255  1.742533
+RMSE        1.267255  1.742533
 
