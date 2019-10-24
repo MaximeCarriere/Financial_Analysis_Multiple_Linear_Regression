@@ -75,7 +75,10 @@ A Multiple Linear Regression model has to satisfy 4 assumptions:
 
 ![Independance](https://user-images.githubusercontent.com/55028120/67507941-e389fd80-f687-11e9-819b-f53b46864d03.png)
 
-3) Normality, the variable must have a normal distribution.
+3) Normality, the variable must have a normal distribution. To check this assumption, the quantil-quantil plot (QQ plot) is drawn. If the distribution follows the red line which represents a 'perfect normal distribution', the distribution can be considered as normal. In our model, all predictors and the independant variable seem to be normal.
+
+![Normality](https://user-images.githubusercontent.com/55028120/67519355-9b2a0a00-f69e-11e9-973d-0d16b350b64c.png)
+
 
 4) Homoscedasticity represents an equal variance between predictors and the independant variable.
 
