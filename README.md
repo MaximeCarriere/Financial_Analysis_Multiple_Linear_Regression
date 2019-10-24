@@ -104,5 +104,12 @@ Then, we can compare the performance of this strategy, which we call the signal-
 
 ![Profit](https://user-images.githubusercontent.com/55028120/67522831-5eaddc80-f6a5-11e9-808b-edb643c129f1.png)
 
+The consistency of performance is very important. Otherwise, it is too risky to apply it in the future. Average daily return is a mirror we can make comparison in finance industry when they use a Sharpe ratio and maximum drawdown.
+
+Sharpe ratio measures excess return per unit of deviation in an investment asset or trading strategy named after William Sharpe. 
+
+In the train data:
+Daily Sharpe Ratio is  0.05398637652227286
+Yearly Sharpe Ratio is  0.8570071587805803
 
 
