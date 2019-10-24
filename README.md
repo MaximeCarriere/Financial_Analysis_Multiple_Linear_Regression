@@ -115,10 +115,12 @@ Sharpe ratio measures excess return per unit of deviation in an investment asset
 
 In the train data set:
 Daily Sharpe Ratio is  0.05398637652227286
+
 Yearly Sharpe Ratio is  0.8570071587805803
 
 In the test data set:
 Daily Sharpe Ratio is  0.032941642184423775
+
 Yearly Sharpe Ratio is  0.522932357988359
 
 Thus, the Sharp ratio indicates that our model might not be optimal. 
