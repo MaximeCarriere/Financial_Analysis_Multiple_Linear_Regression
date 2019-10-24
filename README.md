@@ -84,5 +84,15 @@ A Multiple Linear Regression model has to satisfy 4 assumptions:
 
 If the model violates the assumptions, it is not possible to make statistical inference. However, the accurancy and consistency of model does not rely on these four assumptions.
 
-# Evaluate the strategy
+# Model Evaluation
+
+We can use 2 parameters:
+- Root Mean Square Error (RMSE) 
+- R-square (R^2)
+
+It is important to compute these two values after training and to compare them to the value obtained for the test data set. The values should be similar in the two conditions. Otherwise it indicates the presence of overfitting. Here the two values are relatively the same.
+
+         Train      Test
+R2    0.007057  0.003889
+RMSE  1.267255  1.742533
 
