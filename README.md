@@ -40,5 +40,10 @@ The first step is to create a new variable called "indicepanel" which is compose
 
 4) Built the models. Model 1 includes all predictors.
 
-![Model_1_Summary](https://user-images.githubusercontent.com/55028120/67502229-78d3c480-f67d-11e9-8da1-a1291828e9fc.png)
+Model 1 Summary:
 
+![Model_1_Summary](https://user-images.githubusercontent.com/55028120/67503304-4d51d980-f67f-11e9-94fa-4eb6ad003d9f.png)
+
+Since Model 1 is not significant, we can try to drop the less significant variable to obtain a significant model. Thus, Model 2 includes all predictors but Daxi.
+
+Model 2 Summary:
