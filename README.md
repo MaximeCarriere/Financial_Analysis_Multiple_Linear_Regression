@@ -102,4 +102,7 @@ The Total profit made in Train:  115.98004799999941. (Train correponds to the tr
 
 Then, we can compare the performance of this strategy, which we call the signal-based strategy, with a passive strategy, which we call buy and hold strategy, which is to buy more shares of SPY initially and hold it for 1000 days. We can see from the plot, signal-based strategy outperforms buy-and-hold strategy. 
 
+![Profit](https://user-images.githubusercontent.com/55028120/67522831-5eaddc80-f6a5-11e9-808b-edb643c129f1.png)
+
+
 
