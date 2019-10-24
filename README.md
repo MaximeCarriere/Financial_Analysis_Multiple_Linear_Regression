@@ -71,9 +71,13 @@ A Multiple Linear Regression model has to satisfy 4 assumptions:
 
 2) Independance of variables. Residuals must be uncorrelated. We can use the Durbin-Watson test (https://www.jstor.org/stable/1914122?seq=1#metadata_info_tab_contents). A value below 1.5 corresponds to a positive correlation. A value above 2.5 corresponds to a negative correlation. A value between 1.5 and 2.5 represents the independance of variable. In our model the value of the Durbin-Test is 2.037. Thus, the independance is statisfied. 
 
+![Independance](https://user-images.githubusercontent.com/55028120/67507941-e389fd80-f687-11e9-819b-f53b46864d03.png)
+
 3) Normality, the variable must have a normal distribution
 
 4) Homoscedasticity represents an equal variance between predictors and the independant variable
+
+If the model violates the assumptions, it is not possible to make statistical inference. However, the accurancy and consistency of model does not rely on these four assumptions
 
 # Evaluate the strategy
 
